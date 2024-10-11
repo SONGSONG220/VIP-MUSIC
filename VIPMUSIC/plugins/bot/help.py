@@ -493,8 +493,9 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"url=f"https://t.me/waifexanime"),
-            InlineKeyboardButton(text="🎄ᴄʜᴀɴɴᴇʟ🎄", url=f"url=f"https://t.me/Crunchyrol_Anime_In_Hindi_India"),
+            InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"InlineKeyboardButton(text="⛅ɢʀᴏᴜᴘ⛅", url=f"https://t.me/waifexanime"),
+            InlineKeyboardButton(text="🎄ᴄʜᴀɴɴᴇʟ🎄", url=f"https://t.me/Crunchyrol_Anime_In_Hindi_India"),
+            
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
