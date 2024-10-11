@@ -107,21 +107,21 @@ GIT_TOKEN = getenv(
 )
 
 # Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting.
-AUTO_GCAST = os.getenv("AUTO_GCAST", "on")
+AUTO_GCAST = os.getenv("AUTO_GCAST", "off")
 
 # Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS"
+    "SUPPORT_CHANNEL", "https://t.me/Crunchyrol_Anime_In_Hindi_India"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/waifexanime"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/waifexanime"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
